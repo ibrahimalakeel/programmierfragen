@@ -2,7 +2,7 @@ Ein Großteil der Interviewfragen zur **Objektorientierten Programmierung (OOP)*
 
 Hier ist eine Zusammenfassung der häufigsten Fragen, unterteilt nach Themen:
 
-## 🏛️ Die vier Säulen der OOP
+## 1. 🏛️ Die vier Säulen der OOP
 
 Dies sind die grundlegendsten und wichtigsten Konzepte, die jeder Bewerber beherrschen sollte.
 
@@ -28,7 +28,7 @@ Dies sind die grundlegendsten und wichtigsten Konzepte, die jeder Bewerber beher
 
 ---
 
-## 🏗️ Grundlagen und Kernkonzepte
+## 2. 🏗️ Grundlagen und Kernkonzepte
 
 Diese Fragen zielen auf Ihr fundamentales Verständnis der OOP ab.
 
@@ -44,7 +44,7 @@ Diese Fragen zielen auf Ihr fundamentales Verständnis der OOP ab.
 
 ---
 
-## 🛠️ Design und fortgeschrittene Themen
+## 3. 🛠️ Design und fortgeschrittene Themen
 
 Für fortgeschrittenere Positionen werden oft Fragen zu Designprinzipien gestellt.
 
@@ -64,7 +64,7 @@ Das ist eine hervorragende Ergänzung! Neben den Grundlagen der Objektorientiert
 
 Hier sind weitere wichtige Fragen zu Programmierkenntnissen, aufgeschlüsselt nach Themen:
 
-## 📊 Datenstrukturen und Algorithmen
+## 4. 📊 Datenstrukturen und Algorithmen
 
 Diese sind entscheidend, um die Fähigkeit zur **Problemlösung** und **Effizienz** zu bewerten. 
 
@@ -83,7 +83,7 @@ Diese sind entscheidend, um die Fähigkeit zur **Problemlösung** und **Effizien
 
 ---
 
-## 💻 Fortgeschrittene Programmierkonzepte
+## 5. 💻 Fortgeschrittene Programmierkonzepte
 
 Hier geht es um das tiefergehende Sprachwissen und das Verständnis der Laufzeitumgebung.
 
@@ -102,7 +102,7 @@ Hier geht es um das tiefergehende Sprachwissen und das Verständnis der Laufzeit
 
 ---
 
-## 📐 Software-Design und Architektur
+## 6. 📐 Software-Design und Architektur
 
 Diese Fragen sind besonders für erfahrenere Entwickler relevant.
 
@@ -118,7 +118,7 @@ Diese Fragen sind besonders für erfahrenere Entwickler relevant.
 
 ---
 
-## 🐞 Testen und Debugging
+## 7. 🐞 Testen und Debugging
 
 Fragen zur Qualitätssicherung und Fehlerbehebung.
 
@@ -138,7 +138,7 @@ Sehr gute Idee! Neben der reinen OOP-Theorie gibt es weitere Programmierkenntnis
 
 Hier sind die wichtigsten Fragen in diesen Kategorien:
 
-## 🗄️ Datenbanken und Persistenz (SQL & NoSQL)
+## 8. 🗄️ Datenbanken und Persistenz (SQL & NoSQL)
 
 Diese Fragen bewerten Ihr Verständnis, wie Daten gespeichert, abgerufen und verwaltet werden.
 
@@ -158,7 +158,7 @@ Diese Fragen bewerten Ihr Verständnis, wie Daten gespeichert, abgerufen und ver
 
 ---
 
-## 🌳 Versionskontrolle (Git)
+## 9. 🌳 Versionskontrolle (Git)
 
 Git-Kenntnisse sind für die Zusammenarbeit unerlässlich und werden daher fast immer abgefragt.
 
@@ -175,7 +175,7 @@ Git-Kenntnisse sind für die Zusammenarbeit unerlässlich und werden daher fast 
 
 ---
 
-## 🚀 Entwicklungsmethoden und Praktiken
+## 10. 🚀 Entwicklungsmethoden und Praktiken
 
 Diese Fragen zielen auf die Arbeitsweise im Team ab.
 
@@ -196,7 +196,7 @@ Möchten Sie, dass ich Ihnen ein paar **konkrete Code-Herausforderungen** (z. B.
 
 Gerne, hier sind weitere Interviewfragen, die Ihre **Programmierkenntnisse** und Ihr Wissen über die **Entwicklungsumgebung** sowie **Sicherheit** vertiefen.
 
-## 🔒 Sicherheit und Best Practices
+## 11. 🔒 Sicherheit und Best Practices
 
 Fragen zur Sicherheit sind essenziell, da sie zeigen, wie Sie Software gegen Angriffe absichern.
 
@@ -208,7 +208,7 @@ Fragen zur Sicherheit sind essenziell, da sie zeigen, wie Sie Software gegen Ang
 
 ---
 
-## ☁️ Cloud und DevOps
+## 12. ☁️ Cloud und DevOps
 
 Für moderne Softwareentwicklung sind Cloud- und Automatisierungskenntnisse immer wichtiger.
 
@@ -220,7 +220,7 @@ Für moderne Softwareentwicklung sind Cloud- und Automatisierungskenntnisse imme
 
 ---
 
-## 🔄 Compiler/Interpreter und Laufzeit
+## 13. 🔄 Compiler/Interpreter und Laufzeit
 
 Diese Fragen testen das Verständnis der **Sprachspezifika** und des Ausführungsmechanismus.
 
@@ -231,7 +231,7 @@ Diese Fragen testen das Verständnis der **Sprachspezifika** und des Ausführung
 
 ---
 
-## 🧠 Situative und Meta-Fragen
+## 14. 🧠 Situative und Meta-Fragen
 
 Diese Fragen bewerten Ihre Denkweise, Ihren Lernprozess und Ihren Umgang mit Herausforderungen.
 
@@ -245,7 +245,7 @@ Möchten Sie als Nächstes die häufigsten **Soft Skills** Fragen in Programmier
 
 Gerne, hier sind weitere Interviewfragen, die Ihre Programmierkenntnisse in den Bereichen **Webentwicklung** (Frontend & Backend), **Netzwerke** und **Systemdesign** vertiefen.
 
-## 🌐 Webentwicklung und Netzwerke
+## 15. 🌐 Webentwicklung und Netzwerke
 
 Diese Fragen testen das Verständnis der Kommunikation im Web und der zugrundeliegenden Protokolle.
 
@@ -260,7 +260,7 @@ Diese Fragen testen das Verständnis der Kommunikation im Web und der zugrundeli
 
 ---
 
-## 🖥️ Betriebssysteme und Systemdesign
+## 16. 🖥️ Betriebssysteme und Systemdesign
 
 Diese Fragen prüfen Ihr Verständnis der System- und Ressourcenverwaltung.
 
@@ -272,7 +272,7 @@ Diese Fragen prüfen Ihr Verständnis der System- und Ressourcenverwaltung.
 
 ---
 
-## 🎨 Frontend-Spezifische Fragen (falls relevant)
+## 17. 🎨 Frontend-Spezifische Fragen (falls relevant)
 
 Wenn Sie eine Rolle mit Frontend-Bezug suchen, sind diese Fragen relevant.
 
@@ -284,7 +284,7 @@ Wenn Sie eine Rolle mit Frontend-Bezug suchen, sind diese Fragen relevant.
 
 ---
 
-## 🧪 Analytische/Logische Programmieraufgaben
+## 18. 🧪 Analytische/Logische Programmieraufgaben
 
 Häufig werden diese als Live-Coding- oder Whiteboard-Aufgaben gestellt.
 
@@ -299,7 +299,7 @@ Hätten Sie gerne, dass ich mich auf ein **spezielles Themengebiet** (z.B. nur C
 
 Gerne, hier sind weitere Interviewfragen, die Ihre **Programmierkenntnisse** vertischen, mit einem Fokus auf **Code-Optimierung**, **Entwurfsmuster** (im Detail) und **erweiterte Algorithmenkonzepte**.
 
-## 🚀 Performance und Code-Optimierung
+## 19. 🚀 Performance und Code-Optimierung
 
 Diese Fragen bewerten Ihr Bewusstsein für die Effizienz und Geschwindigkeit von Code.
 
@@ -311,7 +311,7 @@ Diese Fragen bewerten Ihr Bewusstsein für die Effizienz und Geschwindigkeit von
 
 ---
 
-## 📐 Vertiefung von Entwurfsmustern (Design Patterns)
+## 20. 📐 Vertiefung von Entwurfsmustern (Design Patterns)
 
 Hier wird geprüft, ob Sie die Muster nicht nur kennen, sondern auch anwenden und deren Vorteile verstehen.
 
@@ -323,7 +323,7 @@ Hier wird geprüft, ob Sie die Muster nicht nur kennen, sondern auch anwenden un
 
 ---
 
-## 🧩 Erweiterte Algorithmen und Logik
+## 21. 🧩 Erweiterte Algorithmen und Logik
 
 Diese Fragen konzentrieren sich auf fortgeschrittene Algorithmen-Klassen und deren Anwendungen.
 
@@ -334,7 +334,7 @@ Diese Fragen konzentrieren sich auf fortgeschrittene Algorithmen-Klassen und der
 
 ---
 
-## 🛠️ Code-Qualität und Refactoring
+## 22. 🛠️ Code-Qualität und Refactoring
 
 Fragen, die bewerten, wie Sie mit bestehendem Code umgehen und dessen Qualität sichern.
 
@@ -349,7 +349,7 @@ Absolut! Neben den technischen Fähigkeiten sind **Soft Skills** entscheidend, d
 
 Hier sind die häufigsten Soft-Skills-Fragen in Programmier-Interviews, unterteilt nach Themen:
 
-## 🧑‍🤝‍🧑 Teamwork und Zusammenarbeit
+## 23. 🧑‍🤝‍🧑 Teamwork und Zusammenarbeit
 
 Diese Fragen zielen darauf ab, Ihre Fähigkeit zur Zusammenarbeit und Kommunikation zu bewerten.
 
@@ -361,7 +361,7 @@ Diese Fragen zielen darauf ab, Ihre Fähigkeit zur Zusammenarbeit und Kommunikat
 
 ---
 
-## 🤯 Problemlösung und Belastbarkeit
+## 24. 🤯 Problemlösung und Belastbarkeit
 
 Hier wird Ihre mentale Stärke und Ihr Umgang mit unerwarteten Schwierigkeiten getestet.
 
@@ -373,7 +373,7 @@ Hier wird Ihre mentale Stärke und Ihr Umgang mit unerwarteten Schwierigkeiten g
 
 ---
 
-## 🌱 Lernbereitschaft und Karriereziele
+## 25. 🌱 Lernbereitschaft und Karriereziele
 
 Diese Fragen bewerten Ihre Anpassungsfähigkeit, Ihr Engagement und Ihre langfristigen Ziele.
 
@@ -386,7 +386,7 @@ Diese Fragen bewerten Ihre Anpassungsfähigkeit, Ihr Engagement und Ihre langfri
 
 ---
 
-## 🧭 Kultureller Fit und Selbstmanagement
+## 26. 🧭 Kultureller Fit und Selbstmanagement
 
 Diese Fragen helfen dem Interviewer zu beurteilen, ob Sie zur Unternehmenskultur passen.
 
@@ -402,7 +402,7 @@ Möchten Sie als Nächstes konkrete Tipps erhalten, wie Sie diese Art von Soft-S
 
 Gerne! Hier sind weitere anspruchsvolle **Soft-Skills-Fragen** für Programmier-Interviews, die sich auf **Führungsqualitäten (Leadership)**, **Kommunikation in komplexen Situationen** und **Verhandlung** konzentrieren.
 
-## 🗣️ Kommunikation und Stakeholder-Management
+## 27. 🗣️ Kommunikation und Stakeholder-Management
 
 Diese Fragen testen, wie gut Sie technische Konzepte übersetzen und Erwartungen managen können.
 
@@ -413,7 +413,7 @@ Diese Fragen testen, wie gut Sie technische Konzepte übersetzen und Erwartungen
 
 ---
 
-## 🧭 Mentoring und informelles Leadership
+## 28. 🧭 Mentoring und informelles Leadership
 
 Diese Fragen prüfen, ob Sie in der Lage sind, Wissen zu teilen und Kollegen zu fördern, auch ohne formelle Führungsrolle.
 
@@ -424,7 +424,7 @@ Diese Fragen prüfen, ob Sie in der Lage sind, Wissen zu teilen und Kollegen zu 
 
 ---
 
-## 🤝 Verhandlung und Entscheidungsfindung
+## 29. 🤝 Verhandlung und Entscheidungsfindung
 
 Diese Fragen bewerten Ihre Fähigkeit, strategische Entscheidungen zu treffen und dabei andere einzubinden.
 
@@ -439,7 +439,7 @@ Möchten Sie, dass ich die **STAR-Methode** genauer erkläre und zeige, wie Sie 
 
 Absolut! Die **STAR-Methode** ist das effektivste und am häufigsten empfohlene Werkzeug, um verhaltensbasierte Fragen in Interviews zu beantworten. Sie ermöglicht es Ihnen, Ihre Antworten klar, strukturiert und beweisgestützt zu präsentieren.
 
-## ✨ Die STAR-Methode: Aufbau und Zweck
+## 30. ✨ Die STAR-Methode: Aufbau und Zweck
 
 Die STAR-Methode ist ein Akronym, das Ihnen hilft, eine Geschichte in vier spezifischen Schritten zu erzählen:
 
