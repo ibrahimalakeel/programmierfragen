@@ -1,7 +1,3 @@
-Ein Großteil der Interviewfragen zur **Objektorientierten Programmierung (OOP)** konzentriert sich auf die **vier Säulen** der OOP sowie deren praktische Anwendung und Abgrenzung. 
-
-Hier ist eine Zusammenfassung der häufigsten Fragen, unterteilt nach Themen:
-
 ## 1. 🏛️ Die vier Säulen der OOP
 
 Dies sind die grundlegendsten und wichtigsten Konzepte, die jeder Bewerber beherrschen sollte.
@@ -26,6 +22,8 @@ Dies sind die grundlegendsten und wichtigsten Konzepte, die jeder Bewerber beher
     * Erklären und Unterscheiden Sie **Methoden-Überladung** (*Method Overloading*) und **Methoden-Überschreibung** (*Method Overriding*).
     * Was ist **Operator-Überladung** (*Operator Overloading*)?
 
+---
+---
 ---
 
 ## 2. 🏗️ Grundlagen und Kernkonzepte
