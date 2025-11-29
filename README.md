@@ -491,7 +491,7 @@ Nutzen Sie die STAR-Methode zur Beantwortung dieser Schlüsselthemen:
 **Zusammenfassend:** Bereiten Sie **drei bis fünf überzeugende Geschichten** aus Ihrer Karriere vor, die Sie auf die STAR-Struktur anwenden können, um für jede verhaltensbasierte Frage gerüstet zu sein.
 
 
-# OOP Prinzipien (Abstraktion, Vererbung, Polymorphie, Kappselung)
+# Die vier Säulen/Prinzipien der OOP (Abstraktion, Vererbung, Polymorphie, Kappselung)
 Das ist eine ausgezeichnete Zusammenstellung der **vier Säulen der Objektorientierten Programmierung (OOP)**! Hier finden Sie eine sehr ausführliche und detaillierte Erklärung zu jedem dieser grundlegenden Konzepte, wie sie in einem Interview erwartet wird.
 
 ## 1. 🧱 Abstraktion (Abstraction)
