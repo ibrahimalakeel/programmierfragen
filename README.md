@@ -26,7 +26,7 @@ Dies sind die grundlegendsten und wichtigsten Konzepte, die jeder Bewerber beher
 ---
 ---
 
-## 2. 🏗️ Grundlagen und Kernkonzepte
+# 2. 🏗️ Grundlagen und Kernkonzepte
 
 Diese Fragen zielen auf Ihr fundamentales Verständnis der OOP ab.
 
