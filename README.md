@@ -489,3 +489,116 @@ Nutzen Sie die STAR-Methode zur Beantwortung dieser Schlüsselthemen:
 4.  **Teamarbeit:** "Geben Sie ein Beispiel, in dem Sie einem Kollegen helfen mussten, **ein schwieriges Problem** zu lösen."
 
 **Zusammenfassend:** Bereiten Sie **drei bis fünf überzeugende Geschichten** aus Ihrer Karriere vor, die Sie auf die STAR-Struktur anwenden können, um für jede verhaltensbasierte Frage gerüstet zu sein.
+
+
+# OOP Prinzipien (Abstraktion, Vererbung, Polymorphie, Kappselung)
+Das ist eine ausgezeichnete Zusammenstellung der **vier Säulen der Objektorientierten Programmierung (OOP)**! Hier finden Sie eine sehr ausführliche und detaillierte Erklärung zu jedem dieser grundlegenden Konzepte, wie sie in einem Interview erwartet wird.
+
+## 1. 🧱 Abstraktion (Abstraction)
+
+**Abstraktion** bedeutet, die **Komplexität zu verbergen** und dem Benutzer nur die **wesentlichen Informationen** zu zeigen, die für die Interaktion mit einem Objekt notwendig sind. Es geht darum, eine konzeptionelle Schnittstelle bereitzustellen, ohne die interne Implementierungsdetails offenlegen zu müssen.
+
+* **Was ist Abstraktion?**
+    * Es ist der Prozess, die notwendigen Funktionen zu identifizieren und die unwesentlichen Details wegzulassen.
+    * *Analogie:* Wenn Sie ein Auto fahren, verwenden Sie das Lenkrad und das Gaspedal (die notwendige Schnittstelle). Sie müssen nicht wissen, wie der Motor im Detail funktioniert oder wie die Zündkerzen funken (die verborgene Komplexität).
+
+* **Wie wird Abstraktion in OOP erreicht?**
+    * **Abstrakte Klassen (*Abstract Classes*):** Eine Klasse, die nicht direkt instanziiert werden kann und dazu dient, eine gemeinsame, aber unvollständige Schnittstelle für ihre Unterklassen zu definieren. Sie kann sowohl implementierte Methoden als auch **abstrakte Methoden** (ohne Körper) enthalten.
+    * **Interfaces (Schnittstellen):** Eine Sammlung von **abstrakten Methoden** (und Konstanten, je nach Sprache), die einen **Vertrag** definieren. Eine Klasse, die dieses Interface implementiert, muss alle dort definierten Methoden bereitstellen. Sie stellen eine reine Abstraktion dar.
+
+### Unterschied Abstrakte Klasse vs. Interface
+
+| Merkmal | Abstrakte Klasse | Interface |
+| :--- | :--- | :--- |
+| **Ziel** | Bietet eine Basis für ähnliche Klassen, die bereits **gemeinsame Implementierungen** haben. | Definiert einen **Vertrag** für Klassen, die keine Verwandtschaft teilen müssen. |
+| **Implementierung** | Kann (teilweise) implementierte Methoden und abstrakte Methoden enthalten. | Definiert (meistens) nur abstrakte Methoden ohne Implementierung. |
+| **Vererbung** | Eine Klasse kann nur **eine** abstrakte Klasse erben. | Eine Klasse kann **mehrere** Interfaces implementieren (Mehrfachvererbung des Typs). |
+| **Mitglieder** | Kann `public`, `protected` und `private` Felder/Methoden enthalten. | Methoden sind implizit `public` und `abstract`. Felder sind implizit `public`, `static` und `final` (Konstanten). |
+
+* **Kann man eine Instanz einer abstrakten Klasse erstellen?**
+    * **Nein.** Abstrakte Klassen sind konzeptionelle Blaupausen, die per Definition unvollständig sind (da sie abstrakte Methoden enthalten können). Sie müssen immer von einer **konkreten (nicht-abstrakten) Unterklasse** geerbt und vervollständigt werden, bevor eine Instanz erstellt werden kann.
+
+---
+
+## 2. 🛡️ Kapselung/Datenkapselung (Encapsulation)
+
+**Kapselung** ist das Bündeln von Daten (Attribute) und den Methoden (Funktionen), die auf diese Daten zugreifen oder sie manipulieren, **in einer einzigen Einheit** (der Klasse). Das Hauptziel ist der **Schutz der Daten** vor unbefugtem direktem Zugriff.
+
+* **Was bedeutet Kapselung?**
+    * Es ist der Mechanismus, mit dem der Zustand eines Objekts vor direkter Manipulation von außen geschützt wird. Die Daten werden "eingekapselt" oder verborgen.
+    * Zugriff auf die internen Daten erfolgt nur über kontrollierte Methoden (**Getter und Setter**).
+
+* **Rolle der Zugriffsmodifikatoren (*Access Specifiers*):**
+    * Zugriffsmodifikatoren bestimmen, wer auf die Mitglieder einer Klasse zugreifen darf, und sind das Werkzeug zur Durchsetzung der Kapselung:
+        * **`private`:** Nur innerhalb derselben Klasse sichtbar. (Die stärkste Form der Kapselung).
+        * **`protected`:** Nur innerhalb derselben Klasse und deren Unterklassen sichtbar.
+        * **`public`:** Für jeden Code zugänglich, der auf die Klasse zugreifen kann.
+
+* **Vorteile der Kapselung:**
+    * **Datenintegrität/Datenvalidierung:** Sie können in den `Setter`-Methoden Logik hinzufügen, um sicherzustellen, dass die Daten immer gültig sind (z. B. ein Alter darf nicht negativ sein).
+    * **Flexibilität und Wartbarkeit:** Die interne Implementierung kann jederzeit geändert werden, ohne den externen Code (der die öffentlichen Methoden nutzt) zu beeinflussen.
+
+---
+
+## 3. 🌳 Vererbung (Inheritance)
+
+**Vererbung** ist ein Mechanismus, bei dem eine neue Klasse (**Unterklasse**) Funktionalität (Attribute und Methoden) einer bestehenden Klasse (**Oberklasse**) erbt. Sie fördert die **Wiederverwendbarkeit von Code**.
+
+* **Was ist Vererbung und wozu dient sie?**
+    * Sie bildet **"Ist-ein-Beziehungen"** (*"Is-a-relationship"*) ab, z. B. "Ein Auto ist ein Fahrzeug".
+    * Sie ermöglicht es, allgemeine (generische) Eigenschaften in einer Oberklasse zu definieren und diese in spezielleren Unterklassen wiederzuverwenden und zu erweitern.
+
+* **Superklasse (*Superclass*) und Unterklasse (*Subclass*):**
+    * **Superklasse (Basis-/Elternklasse):** Die Klasse, von der geerbt wird.
+    * **Unterklasse (Abgeleitete/Kindklasse):** Die Klasse, die die Funktionalität der Superklasse erbt. Sie kann neue Eigenschaften hinzufügen und geerbte Methoden überschreiben.
+
+* **Arten der Vererbung (Typische Klassifizierung):**
+    * **Einfache Vererbung:** Eine Klasse erbt von genau einer anderen Klasse. (Die einzige Form, die in Java und C# für Klassen erlaubt ist.)
+    * **Mehrstufige Vererbung:** Klasse A erbt von B, und Klasse B erbt von C.
+    * **Hierarchische Vererbung:** Mehrere Klassen erben von einer einzigen Basisklasse.
+    * *Achtung:* **Mehrfachvererbung** (eine Klasse erbt direkt von zwei oder mehr Klassen) wird in Sprachen wie Java und C# für Klassen aus Komplexitätsgründen (**Diamond-Problem**) nicht unterstützt; sie wird dort durch **Interfaces** gelöst.
+
+* **Rolle des `super()`-Aufrufs:**
+    * `super()` (oder Äquivalente in anderen Sprachen) wird hauptsächlich aus der Unterklasse verwendet, um:
+        1.  Den **Konstruktor der Superklasse** aufzurufen (muss oft die erste Anweisung im Unterklassen-Konstruktor sein).
+        2.  Auf **überschriebene Methoden** oder Attribute der Superklasse zuzugreifen.
+
+* **Einschränkungen bei der Vererbung:**
+    * In vielen Sprachen können Klassen als **`final`** (oder **`sealed`** in C#) deklariert werden. Diese Klassen **können nicht vererbt werden**. Dies wird oft für Sicherheits- oder Design-Gründe verwendet (z. B. die Java-Klasse `String`).
+
+---
+
+## 4. 🎭 Polymorphismus (Polymorphism)
+
+**Polymorphismus** (griech. "Viele Gestalten") ermöglicht es, dass Objekte unterschiedlicher Klassen auf dieselbe Nachricht (Methodenaufruf) unterschiedlich reagieren, solange sie dieselbe Schnittstelle teilen. 
+
+[Image of Polymorphism in OOP]
+
+
+* **Was ist Polymorphismus und welche Formen gibt es?**
+    * Es erlaubt einer Variablen oder einer Funktion, je nach Kontext oder Typ des Objekts, auf das sie verweist, **mehrere Formen** anzunehmen.
+    * Hauptformen sind **statische** und **dynamische** Polymorphie.
+
+### Statische vs. Dynamische Polymorphie
+
+| Merkmal | Statische Polymorphie (*Compile-time*) | Dynamische Polymorphie (*Runtime*) |
+| :--- | :--- | :--- |
+| **Mechanismus** | **Methoden-Überladung** (*Method Overloading*) | **Methoden-Überschreibung** (*Method Overriding*) |
+| **Zeitpunkt** | Die Entscheidung über die aufzurufende Methode fällt **während der Kompilierung**. | Die Entscheidung über die aufzurufende Methode fällt **zur Laufzeit** (dynamisches Binden). |
+| **Kriterien** | Unterschiedliche Methoden haben den **gleichen Namen**, aber **unterschiedliche Parameter** (Anzahl/Typ). | Die Methode in der Unterklasse hat den **gleichen Namen** und die **gleiche Signatur** wie in der Superklasse. |
+
+* **Methoden-Überladung (*Overloading*) vs. Methoden-Überschreibung (*Overriding*):**
+    * **Überladung:** Findet innerhalb einer **einzigen Klasse** statt (oder zwischen Verwandten). Sie ermöglicht die Wiederverwendung desselben Methodennamens für verschiedene Eingabetypen.
+    * **Überschreibung:** Findet zwischen einer **Oberklasse** und einer **Unterklasse** statt. Die Unterklasse ändert das Verhalten einer geerbten Methode, um sie für ihre spezifische Implementierung anzupassen. Die Signatur muss identisch sein.
+
+* **Operator-Überladung (*Operator Overloading*):**
+    * Dies ist eine weitere Form des statischen Polymorphismus, die in einigen Sprachen (z. B. C++, Python, C#) verfügbar ist.
+    * Sie erlaubt es, **Operatoren** (wie `+`, `-`, `*`) mit einer **speziellen Bedeutung** für benutzerdefinierte Datentypen zu versehen.
+    * *Beispiel:* In Python ermöglicht Operator-Überladung, dass der `+`-Operator sowohl zwei Zahlen addiert (`1 + 2`) als auch zwei Strings verknüpft (`"Hallo" + "Welt"`).
+
+
+
+
+
+
+
