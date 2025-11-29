@@ -1,4 +1,4 @@
-## 1. 🏛️ Die vier Säulen der OOP [Antworten hier](#vier-saeulen-oop)
+# 1. 🏛️ Die vier Säulen der OOP
 
 Dies sind die grundlegendsten und wichtigsten Konzepte, die jeder Bewerber beherrschen sollte.
 
